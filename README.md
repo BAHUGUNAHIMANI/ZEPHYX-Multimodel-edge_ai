@@ -22,3 +22,16 @@ Developed with the Himalayan landscape of Uttarakhand in mind, ZEPHYX ensures pa
 - **Detection Logic:** The framework identified a **Moderate Risk** fungal pattern with a **Texture Variance of 308.80**.
 - **Edge Efficiency:** These results were generated using a **TFLite quantized model**, ensuring sub-100ms inference on a standard laptop CPU without GPU or Internet.
 - **Multimodal Status:** The system concurrently monitors **Acoustic Biomarkers** while performing visual segmentation.
+## Research Context
+
+This project addresses a core challenge in efficient machine learning: 
+how much can a model be compressed before its statistical guarantees 
+degrade? Drawing on principles related to optimal transport and 
+efficient approximation (cf. Houry et al., AISTATS 2024), ZEPHYX 
+achieves sub-100ms inference by compressing a multimodal model to 
+15MB using TFLite quantization — without internet dependency or GPU.
+
+**Key research questions explored:**
+- Accuracy vs compression trade-off in cross-modal inference
+- Edge deployment constraints as a lens for efficient ML design
+- Offline-first AI for resource-constrained environments
