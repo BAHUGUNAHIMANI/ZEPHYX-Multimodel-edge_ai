@@ -22,6 +22,23 @@ Developed with the Himalayan landscape of Uttarakhand in mind, ZEPHYX ensures pa
 - **Detection Logic:** The framework identified a **Moderate Risk** fungal pattern with a **Texture Variance of 308.80**.
 - **Edge Efficiency:** These results were generated using a **TFLite quantized model**, ensuring sub-100ms inference on a standard laptop CPU without GPU or Internet.
 - **Multimodal Status:** The system concurrently monitors **Acoustic Biomarkers** while performing visual segmentation.
+
+- ## 📊 Trained Model Performance
+
+| Metric | Result |
+|--------|--------|
+| 🎯 Test Accuracy | **91.85%** |
+| 📦 TFLite Model Size | **2.71 MB** |
+| ⚡ Inference Time | **20.20ms** |
+| ✅ Sub-100ms | **YES** |
+| 🗂️ Dataset | Skin Disease Dataset (7 classes) |
+| 🔧 Architecture | MobileNetV2 (Fine-tuned) |
+| 🎤 Audio Classification | MFCC-based (Dry/Wet Cough, 4 classes) |
+
+> Model trained on real skin disease dataset — fungal, bacterial, 
+> viral conditions classified with 91.85% accuracy on edge device.
+>
+> 
 ## Research Context
 
 This project addresses a core challenge in efficient machine learning: 
