@@ -48,6 +48,12 @@ efficient approximation (cf. Houry et al., AISTATS 2024), ZEPHYX
 achieves sub-100ms inference by compressing a multimodal model to 
 15MB using TFLite quantization — without internet dependency or GPU.
 
+## 📄 Research Paper
+
+Bahuguna, H. (2026). ZEPHYX: A Multimodal Edge-AI Framework for Rural Healthcare Diagnostics. *Zenodo*.
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21208406.svg)](https://doi.org/10.5281/zenodo.21208406)
+
 **Key research questions explored:**
 - Accuracy vs compression trade-off in cross-modal inference
 - Edge deployment constraints as a lens for efficient ML design
